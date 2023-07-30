@@ -1,0 +1,103 @@
+.navigation{
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    justify-content: space-evenly;
+}
+.navbar-home a{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.navbar-qualifications a{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.navbar-projects a{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.navbar-contact a{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.navbar-contact i{
+    display: none;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.home-photo{
+    clip-path: calc();
+}
+.text{
+    padding: 5px 5pxpx;
+    margin: 5px 5px ;
+}
+.box-1{
+    padding: 5px 5px;
+    margin: 10px 10px;
+
+}
+.box-2{
+    padding: 5px 5px;
+    margin: 10px 10px;
+    
+}
+.box-3{
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+.box-heading p{
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: white;
+}
+#contact{
+    font-size: 0.8rem;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+#name {
+    width: 100%;
+    padding: 5px 5px ;
+    margin: 5px 5px;
+}
+#number{
+    width: 100%;
+    padding: 5px 5px ;
+    margin: 5px 5px;
+}
+#email {
+    width: 100%;
+    padding: 5px 5px ;
+    margin: 5px 5px;
+}
+#doubt{
+    width: 100%;
+    padding: 5px 5px ;
+    margin: 5px 5px;
+}
+.text{
+    background-color: rgba(43, 42, 42, 0.945);
+}
+#box{
+    background-color: rgba(0, 0, 0, 0.356);
+
+}
+#contact{
+    background-color: black;
+}

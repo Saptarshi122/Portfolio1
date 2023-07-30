@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    display: flex;
+    padding: 20px 20px;
+    margin:  20px 20px;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    font-family: Edu SA Beginner;
+}
+.navbar-home a{
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    color: white;
+}
+.navbar-qualifications a{
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    color: white;
+}
+.navbar-projects a{
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    color: white;
+}
+.navbar-contact a{
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    color: white;
+}
+.navbar-contact i{
+    color: lime;
+    padding: 5px 5px;
+    margin: 3px 3px;
+}
+.navigation::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    height: 100px;
+    
+}
+#home{
+    display: flex;
+    font-family: Edu SA Beginner;
+    padding: 20px 20px;
+    margin:  20px 20px;
+    justify-content: center;
+    color: lime;
+    font-size: 1.2rem;
+}
+#home::before{
+    content: " ";
+     background-color:black;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:100px;
+    height: 450px;
+    left:0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+.text {
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+.home-photo {
+    clip-path:circle();
+}
+
+#box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    font-family: Edu SA Beginner;
+    font-size: 1.2rem;
+}
+.box-1{
+    border: 3px solid red;
+    background-color: black;
+    color: yellow;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 20px ;
+    box-shadow: 5px 5px 3px lime;
+}
+.box-2{
+    border: 2px solid yellow;
+    background-color: black;
+     color: red;
+     padding: 10px 10px;
+     margin: 10px 10px;
+     border-radius: 20px;
+     box-shadow: 5px 5px 3px lime;
+}
+.box-heading p {
+    font-family: Edu SA Beginner;
+    font-size: 2.5rem;
+    padding: 10px 10px;
+    margin:  10px 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-heading::before{
+    content: " ";
+    background-color:rgba(0, 0, 0, 0.452);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    position: absolute;
+    top: 550px;
+    left:0px; 
+    height:400px;
+}
+#contact::before{
+    content: " ";
+    background-color:rgba(0, 0, 0, 0.993);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    position: absolute;
+    top: 950px;
+    left: 0px;
+    height:  450px;
+}
+.box-3 {
+    border: 3px solid purple;
+    background-color: black;
+    color: lime;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    box-shadow: 5px 5px 3px lime;
+    border-radius: 20px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Edu SA Beginner;
+    font-size: 1.2rem;
+    padding: 20px 20px;
+    margin:  20px 20px;
+}
+#name {
+    height: 20px;
+    width:  40%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin:  10px 10px;
+    border: 4px solid lime;
+}
+#number{
+    height: 20px;
+    width:  40%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin:  10px 10px;
+    border: 4px solid lime;
+}
+#email{
+    height: 20px;
+    width:  40%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin:  10px 10px;
+    border: 4px solid lime;
+}
+#doubt{
+    height: 50px;
+    width:  40%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin:  10px 10px;
+    border: 4px solid lime;
+}
+.box-1 a{
+    color:aqua;
+}
+.box-2 a{
+    color:aqua;
+}
+.box-3 a{
+    color:aqua;
+}
+#contact p{
+    color:aqua;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
